@@ -2,7 +2,7 @@
 
 class Config:
     def __init__(self):
-        self.openai_api_key = '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'
+        self.openai_api_key = 'your API_Key here'
 
     @property
     def get_openai_api_key(self):
