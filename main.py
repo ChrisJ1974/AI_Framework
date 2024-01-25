@@ -7,9 +7,9 @@ from data_interpreter_module import DataInterpreterModule
 
 def main():
     vision_module = VisionModule()
-    voice_module = VoiceModule()
+    text_to_speech_module = VoiceModule()
     data_interpreter_module = DataInterpreterModule()
-    calculation_module = CalculationModule()
+    speech_to_text_module = SpeechToTextModule()
 
     # Example usage of each module
     vision_result = vision_module.analyze_image('path/to/your/image.jpg')
