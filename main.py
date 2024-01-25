@@ -3,7 +3,6 @@ from vision_module import VisionModule
 from text_to_speech import VoiceModule
 from speech_to_text import SpeechToTextModule
 from data_interpreter_module import DataInterpreterModule
-from calculation_module import CalculationModule
 
 
 def main():
